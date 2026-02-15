@@ -22,7 +22,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="relative w-full min-h-screen text-white overflow-hidden">
+    <section className="relative w-full  text-white overflow-hidden">
       <div className="relative w-[99%] mx-auto px-6 py-20">
 
         {/* Review Cards */}
