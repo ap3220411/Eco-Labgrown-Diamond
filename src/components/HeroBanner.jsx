@@ -169,7 +169,7 @@ const HeroBanner = () => {
                 </div>
 
                 {/* MOBILE + TABLET ARROWS (BOTTOM CENTER) */}
-                <div className="flex lg:hidden justify-between items-center py-8 px-6">
+                {/* <div className="flex lg:hidden justify-between items-center py-8 px-6">
                     <button
                         onClick={handlePrev}
                         className="text-2xl text-[#b65c3a]"
@@ -183,7 +183,7 @@ const HeroBanner = () => {
                     >
                         <IoIosArrowRoundForward />
                     </button>
-                </div>
+                </div> */}
 
             </div>
         </div>
