@@ -56,7 +56,7 @@ const Navbar = () => {
               {desktopNavItems.map((item) => (
                 <a
                   key={item.id}
-                  href={item.id === "home" ? "/" : `/${item.id}`}
+                  href={item.id === "home" ? "/" : `/`}
                   className={`transition-all capitalize font-medium relative group text-lg flex items-center space-x-1 ${isScrolled
                     ? 'text-third hover:text-secondary'
                     : 'text-third hover:text-secondary'
